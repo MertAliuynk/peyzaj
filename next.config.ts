@@ -1,7 +1,10 @@
+
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["2.59.117.63"],
+  },
   reactCompiler: true,
 };
 
